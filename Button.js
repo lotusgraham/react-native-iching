@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Image, TouchableOpacity, } from 'react-native';
 import iChing from './iChing'
-import i from './index.ios'
 
 class MyButton extends Component {
 
@@ -12,7 +11,7 @@ class MyButton extends Component {
   render() {
     return (
       <TouchableOpacity onPress={this._onPressButton}>
-                <Image source={{uri: source=iChing[i].Symbol}}
+                <Image source={{uri: source=iChing[2].Symbol}}
                        style={styles.image} />
         </TouchableOpacity>
     );
